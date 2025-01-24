@@ -1,0 +1,51 @@
+h1 {
+    color: #333333;
+    font-family: monospace;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 49.03px;
+
+}
+
+p {
+    color: #666666;
+    font-family: monospace;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 24.51px;
+}
+
+button {
+    color: #ffffff;
+    background-color: #089FE0;
+    font-family: monospace;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 24.51px;
+}
+
+form {
+    background-color: #FFFEFE;
+}
+
+input {
+    font-family: monospace;
+    background-color: #F5F5F5;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 21.79px;
+    color: #999999;
+
+}
+
+body {
+    background-color: #F39494;
+}
+
+.mishanya {
+    font-family: monospace;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19.07px;
+}
