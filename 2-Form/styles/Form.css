@@ -1,0 +1,97 @@
+@font-face {
+    font-family: "OpenSans";
+    src: url(/Fonts/OpenSans-Regular.ttf);
+}
+
+body {
+    font-family: "OpenSans";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F39494;
+    margin: auto;
+    height: 100vh;
+    max-width: 1400px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFEFE;
+    border-radius: 10px;
+    padding: 72px 95px 91px 93px;
+}
+
+h1 {
+    color: #333333;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 49.03px;
+    margin: 0;
+}
+
+.form__entrance {
+    margin-bottom: 47px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.51px;
+}
+
+.form__information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+    width: 394px;
+
+}
+
+.form__item {
+    width: 394px;
+    height: 44px;
+    border-radius: 5px;
+}
+
+.form__item1 {
+    border: 0;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 21.79px;
+    color: #999999;
+}
+
+.form__item2 {
+    border: 3px solid #FFFFFF;
+    background-color: #089FE0;
+    color:#FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.51px;
+}
+
+.form__name {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 394px;
+}
+
+.form__conditions {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19.07px;
+}
+
+.form-button {
+    position: relative;
+}
+
+.form-button img {
+    position: absolute;
+    right: 25px;
+    top: 10px;
+}

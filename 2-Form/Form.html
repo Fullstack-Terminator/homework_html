@@ -4,28 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="Form.css">
+    <title>1-Form</title>
+    <link rel="stylesheet" href="/styles/Form.css">
 </head>
 
 <body>
     <form action="#">
         <h1>Регистрация</h1>
-        <p>Уже есть аккаунт?<a href="#">Войти</a></p>
-        <div>
-            <input type="text" name="text" id="text" placeholder="Моя компания">
+        <div class="form__entrance">
+            <span>Уже есть аккаунт?</span>
+            <a href="#">Войти</a>
         </div>
-        <div>
-            <input type="text" name="name" id="name" placeholder="Имя">
-            <input type="text" name="surname" id="surname" placeholder="Фамилия">
-        </div>
-        <div>
-            <input type="email" name="email" id="email" placeholder="E-mail">
-        </div>
-        <button type="submit">Зарегистрироваться</button>
-        <div class="mishanya">
-            <input type="checkbox" name="conditions" id="conditions">
-            <label for="conditions">Я прочитал и принимаю <a href="#">Условия использования</a></label>
+        <div class="form__information">
+            <input type="text" id="text" placeholder="Моя компания" class="form__item form__item1">
+            <div class="form__name">
+                <input type="text" id="name" placeholder="Имя" class="form__item form__item1">
+                <input type="text" id="surname" placeholder="Фамилия" class="form__item form__item1">
+            </div>
+            <input type="email" id="email" placeholder="E-mail" class="form__item form__item1">
+            <div class="form-button">
+                <button class="form__item form__item2">Зарегистрироваться</button>
+                <img src="/pictures/Arrow 1.png" alt="Иконка перехода">
+            </div>
+            <div class="form__conditions">
+                <input type="checkbox" name="conditions" id="conditions">
+                <label for="conditions">Я прочитал и принимаю <a href="#">Условия использования</a></label>
+            </div>
         </div>
     </form>
 </body>
