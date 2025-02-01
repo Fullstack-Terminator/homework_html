@@ -169,7 +169,7 @@ section {
     justify-content: center;
     align-items: center;
     gap: 77px;
-    margin-top: 81px; 
+    padding-top: 81px; 
 }
 
 nav ul {
@@ -180,14 +180,14 @@ nav ul {
 }
 
 .hero__input {
-    margin-top: 81px;
+    padding-top: 81px;
     position: relative;
 }
 
-.hero__input img {
+.hero__icon-search {
     position: absolute;
-    top: 15px;
-    left: 18px;
+    left: 25px;
+    bottom: 15px;
 }
 
 .main-section {
@@ -196,4 +196,11 @@ nav ul {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+}
+
+img {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 100%;
 }
