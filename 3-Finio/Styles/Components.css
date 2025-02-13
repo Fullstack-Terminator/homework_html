@@ -41,6 +41,13 @@
     margin: 0;
 }
 
+.product-features-texts {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+    margin: 0;
+}
+
 .product-features-text_color {
     color: var(--color-text-transparency);
 }

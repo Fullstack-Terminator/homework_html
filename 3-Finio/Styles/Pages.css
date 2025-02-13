@@ -10,14 +10,21 @@
     padding-bottom: 33px;
     margin-bottom: 47px;
     position: relative;
+    width: fit-content;
+}
+
+.header-wrapper__information {
+    display: flex;
+    gap: 80px;
+    flex-direction: column;
 }
 
 .block {
     width: 110%;
     height: 325px;
     position: absolute;
-    top: 70%;
-    right: -1.6%;
+    bottom: -13%;
+    right: -1.7%;
     transform: rotate(-7deg);
     background-color: var(--color-white);
 }
@@ -34,20 +41,18 @@
     width: 150%;
 }
 
-.header-wrapper__logo {
-    margin-top: 80px;
-}
-
 .stat {
     background-color: var(--color-white);
     max-width: var(--max-width-lending);
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     gap: 64px;
     margin: 0 auto;
     padding-bottom: 80px;
     border-bottom: 1px solid var(--color-border);
+    margin-top: 32px;
     margin-bottom: 63px;
     position: relative;
 }
@@ -66,6 +71,12 @@
 }
 
 .product-features {
+    display: flex;
+    max-width: var(--max-width-lending);
+    margin: 0 auto;
+}
+
+.product-features-reverse {
     display: flex;
     max-width: var(--max-width-lending);
     margin: 0 auto;
@@ -125,7 +136,7 @@
 }
 
 .section {
-    padding: 120px 0 calc(120px - 24px) 0;
+    padding: 120px 0 120px 0;
 }
 
 .hero-button__indent {
@@ -184,6 +195,14 @@
     margin-bottom: 24px;
 }
 
+.block-list__item3 {
+    list-style: none;
+    background-image: url(../Images/check-circle.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 30px;
+}
+
 .banner-information {
     max-width: var(--max-width-lending);
     margin: 0 auto;
@@ -205,12 +224,18 @@
     gap: 24px;
 }
 
+.banner-item__text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 .banner-item__h3 {
     font-weight: 600;
     font-size: 32px;
     line-height: 120%;
     margin-top: 0;
-    margin-bottom: 20px;
+    margin-bottom: 0;
 }
 
 .paragraph__indent {
@@ -447,16 +472,6 @@
     left: 1%;
 }
 
-@media (max-width: 1200px) {
-    .h2 {
-        text-align: left;
-    }
-
-    .paragraph_position {
-        text-align: left;
-    }
-    
-    .rate {
-        grid-template-columns: repeat(1, 1fr);
-    }
+.block-feedback__menu-swap {
+    display: none;
 }

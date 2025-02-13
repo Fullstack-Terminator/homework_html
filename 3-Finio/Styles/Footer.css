@@ -23,6 +23,7 @@ footer {
 .footer-top__block ul {
     list-style: none;
     margin: 0;
+    padding-left: 0;
 }
 
 .footer-top__block ul>li {

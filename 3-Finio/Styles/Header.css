@@ -38,29 +38,3 @@
     background: none;
     border: none;
 }
-
-@media (max-width: 1000px) {
-    .hero__menu {
-        display: none;
-    }
-    
-    header .hero-button {
-        display: none;
-    }
-    
-    .button-ghost {
-        display: block;
-    }
-    
-    .hero {
-        border-bottom: 1px solid var(--color-banner-border);
-        margin-left: 23px;
-        margin-right: 24px;
-    }
-}
-/* Page */
-@media (max-width: 1550px) {
-    .header-wrapper__image {
-        display: none;
-    }
-}
