@@ -90,10 +90,66 @@
     }
 
     /* section 1 block ghost */
+    
+    @media (max-width: 2450px) {
+        .block {
+            bottom: 19%;
+            right: -2.4%;
+            height: 425px;
+        }
+    }
+
+    @media (max-width: 2350px) {
+        .block {
+            bottom: 21%;
+            right: -2.4%;
+        }
+    }
+
+    @media (max-width: 2250px) {
+        .block {
+            bottom: 17%;
+            right: -2.4%;
+        }
+    }
+
+    @media (max-width: 2150px) {
+        .block {
+            bottom: 15%;
+            right: -2.4%;
+        }
+    }
+
+    @media (max-width: 2050px) {
+        .block {
+            bottom: 9%;
+            right: -2.4%;
+        }
+    }
+
+    @media (max-width: 1950px) {
+        .block {
+            bottom: 7%;
+            right: -2.4%;
+        }
+    }
+    @media (max-width: 1850px) {
+        .block {
+            bottom: -5%;
+            right: -2.4%;
+        }
+    }
+
+    @media (max-width: 1650px) {
+        .block {
+            bottom: -20%;
+            right: -2.4%;
+        }
+    }
 
     @media (max-width: 1550px) {
         .block {
-            bottom: 8%;
+            bottom: -3%;
             right: -2.4%;
         }
 
@@ -102,9 +158,16 @@
         }
     }
 
+    @media (max-width: 1450px) {
+        .block {
+            bottom: -3%;
+            right: -2.4%;
+        }
+    }
+
     @media (max-width: 1050px) {
         .block {
-            bottom: 7.5%;
+            bottom: -1%;
             right: -5%;
         }
 
@@ -113,9 +176,22 @@
         }
     }
 
+    @media (max-width: 1000px) {
+        .block {
+            bottom: -7%;
+            right: -4%;
+        }
+    }
+
+    @media (max-width: 650px) {
+        .block {
+            right: -7%;
+        }
+    }
+
     @media (max-width: 550px) {
         .block {
-            bottom: 5%;
+            bottom: -7%;
             right: -7%;
         }
 
@@ -126,7 +202,7 @@
 
     @media (max-width: 500px) {
         .block {
-            bottom: 3%;
+            bottom: -7%;
             right: -7%;
         }
 
@@ -137,12 +213,26 @@
 
     @media (max-width: 450px) {
         .block {
-            bottom: 1%;
+            bottom: -7%;
             right: -7%;
         }
 
         .header-wrapper {
             padding-bottom: 70px;
+        }
+    }
+
+    @media (max-width: 470px) {
+        .block {
+            bottom: -8%;
+            right: -7%;
+        }
+    }
+
+    @media (max-width: 430px) {
+        .block {
+            bottom: -12%;
+            right: -7%;
         }
     }
 
