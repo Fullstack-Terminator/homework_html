@@ -1,5 +1,6 @@
 .section-indent {
     padding-top: 79px;
+    position: relative;
 }
 
 .header-wrapper {
@@ -9,7 +10,6 @@
     gap: 90px;
     padding-bottom: 33px;
     margin-bottom: 47px;
-    position: relative;
     width: fit-content;
 }
 
@@ -20,13 +20,18 @@
 }
 
 .block {
-    width: 110%;
-    height: 325px;
+    width: 100%;
+    height: 524px;
     position: absolute;
-    bottom: -13%;
-    right: -1.7%;
-    transform: rotate(-7deg);
+    bottom: -40%;
+    right: 0;
+    transform: skewX(20deg);
+    transform: skewY(-7deg);
     background-color: var(--color-white);
+}
+
+.header-wrapper__image {
+    position: relative;
 }
 
 .heading-one {
